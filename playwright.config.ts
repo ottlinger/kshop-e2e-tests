@@ -12,6 +12,11 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+
+  use: {
+    video: 'on-first-retry',
+  },
+
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
