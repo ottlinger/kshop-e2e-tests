@@ -47,3 +47,7 @@ Visit https://playwright.dev/docs/intro for more information. ✨
 
 Happy hacking! 🎭
 
+## Running the tests
+
+cd tests
+npx playwright test
